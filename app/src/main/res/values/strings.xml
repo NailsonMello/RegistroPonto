@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Roma Merchandising</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="usuarios">
+        <item>Claudio</item>
+        <item>Claudia</item>
+        <item>Gilcelia</item>
+        <item>Valdeir</item>
+        <item>Rosimeire</item>
+        <item>Maria</item>
+        <item>Mauro</item>
+        <item>Cassiara</item>
+        <item>Magali</item>
+        <item>Sheila</item>
+        <item>Rosangela</item>
+        <item>Patricia</item>
+        <item>Joise</item>
+        <item>Cristiane</item>
+        <item>Luziana</item>
+        <item>Diana</item>
+        <item>Nailson</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "96142251925",
+    "firebase_url": "https://promoroma-40992.firebaseio.com",
+    "project_id": "promoroma-40992",
+    "storage_bucket": "promoroma-40992.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96142251925:android:638eff92b950f866",
+        "android_client_info": {
+          "package_name": "roma.promo.nailson.romapromo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96142251925-l7j10qstta1ls7cneta137j9o6chceb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "roma.promo.nailson.romapromo",
+            "certificate_hash": "97b122834d23a5041a295dbf569689322f1a9083"
+          }
+        },
+        {
+          "client_id": "96142251925-8he73pr5bkn21j3hcgud7786b0bs3pqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEJQxbpOoB3Gmq0YHM8Yub3okJQYGXYAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96142251925-8he73pr5bkn21j3hcgud7786b0bs3pqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

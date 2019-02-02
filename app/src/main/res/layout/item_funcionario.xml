@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/branco"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nomeFuncionario"
+        android:textStyle="bold"
+        android:text="Nome"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ImageButton
+        android:background="@drawable/ic_seta_ir"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    android:gravity="center"
+    tools:context=".TesteArduino">
+
+    <TextView
+        android:id="@+id/tst"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testando IOT"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/ldverde"
+        android:visibility="gone"
+        android:layout_below="@+id/tst"
+        android:textAlignment="center"
+        android:text="Led Verde"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ledVerde"
+        android:layout_below="@+id/ldverde"
+        android:background="#1fb605"
+        android:text="Ligado"
+        android:textSize="18dp"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/branco"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ldamarelo"
+        android:layout_below="@+id/ledVerde"
+        android:textAlignment="center"
+        android:text="Led Amarelo"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ledAmarelo"
+        android:layout_below="@+id/ldamarelo"
+        android:background="#f5d904"
+        android:text="Ligado"
+        android:textSize="18dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:textColor="@color/branco"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_below="@+id/ledAmarelo"
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.github.barteksc.pdfviewer.PDFView>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_pdf"
+        android:id="@+id/testePDF"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+</RelativeLayout>
